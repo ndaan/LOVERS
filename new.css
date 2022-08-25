@@ -1,5 +1,14 @@
 body{   
-    background:rgb(118, 196, 232);
+    background-color: aqua;
+    animation-name: auto;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes auto{
+to{
+    background-color: blanchedalmond;
+}
 }
 .avatar{
     margin: 20px;
@@ -9,7 +18,7 @@ h3{   font-family: 'Pacifico';
 
     font-size: 30px;
 }
-.button{background-color: #d9d9d9;
+.button {background-color: #d9d9d9;
     font-size: 16px;
     margin-bottom: 20px;
     border: 0;
@@ -17,10 +26,11 @@ h3{   font-family: 'Pacifico';
     padding: 15px 0px 15px 0;
     border-radius: 100px;
     font-family: Copperplate, Papyrus, fantasy;
-    transition-duration: 0.3s;
-    transition-property: color,background-color;
+    transition: all 2s ease-in-out;
 }
 .button:hover{
+    width: 200px;
     color: white;
     background-color: black;
+    
 }
