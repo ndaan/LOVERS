@@ -1,36 +1,104 @@
-body{   
-    background-color: aqua;
-    animation-name: auto;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+*{ 
+  padding: 0;
+  margin: 0;
 }
-@keyframes auto{
-to{
-    background-color: blanchedalmond;
-}
-}
-.avatar{
-    margin: 20px;
- border-radius: 100px;   
-}
-h3{   font-family: 'Pacifico';
 
-    font-size: 30px;
+header{
+
+height: 100px;
+background-color:#282828;
 }
-.button {background-color: #d9d9d9;
-    font-size: 16px;
-    margin-bottom: 20px;
-    border: 0;
-    width: 300px;
-    padding: 15px 0px 15px 0;
-    border-radius: 100px;
-    font-family: Copperplate, Papyrus, fantasy;
-    transition: all 2s ease-in-out;
+.box {
+  display: flex;
+  border-top: 50px solid #5d5c61;
+  border-left: 50px solid transparent;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(34, 65, 32);
+  align-items: center;
+  justify-content: left;
+  background-color: #282828;
+  padding-bottom: 10px solid transparent;
 }
-.button:hover{
-    width: 200px;
-    color: white;
-    background-color: black;
-    
+
+.avatar {
+  border: 5px solid #d9d9d9;
+  border-radius: 50%;
+  border-top: 5px solid #d9d9d9;
+  border-bottom: 5px solid #d9d9d9;
+  padding: 10px;
+  background-color: #d9d9d9;
+  align-items: right;
+  justify-content: right;
+  margin: 0px 30px;
+}
+
+.avatar:hover {
+  border-top: 5px solid #282828;
+  border-bottom: 5px solid #282828;
+  width: 50px;
+  height: 50px;
+  transition: 1s;
+  animation: spin 2s linear infinite;
+
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.infor .button {
+  font-weight: 100;
+  font-variant: small-caps;
+  font-family: Georgia, serif;
+  font-size: medium;
+  font-weight: 100;
+  color: #66FCf1;
+  width: 120px;
+  height: 60px;
+  background: #45A29E;
+  border-radius: 50px;
+  position: center;
+  margin: 10px 10px 12px 5px;
+  border-collapse: collapse;
+  align-items: center;
+
+}
+
+.button:hover {
+  width: 170px;
+  transition: 2s;
+  background: #66FCf1;
+  color: #45A29E;
+
+}
+/* ================ */
+body{
+
+  animation: mau 5s linear infinite;
+  animation-direction: alternate;
+}
+@keyframes mau {
+  from{
+      background-color: #5d5c61;
+  }
+  to{
+      background-color: #dcd0cd;
+  }
+}
+.screen {
+  border-radius: 100px;
+  padding: 10px 0px 0px 10px;
+}
+.thongtin  li{
+  font-weight: 1200px;
+  font-size: 25px;
+  font-family: Georgia, serif;
+  text-align: center;
+  list-style: none;
+  font-size: 30px;
+  color: rgb(193, 177, 193);
+  font-family: "Sofia", sans-serif;
+
 }
