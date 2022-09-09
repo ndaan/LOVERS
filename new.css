@@ -52,10 +52,10 @@ background-color:#282828;
   font-weight: 100;
   font-variant: small-caps;
   font-family: Georgia, serif;
-  font-size: medium;
+  font-size: 12px;
   font-weight: 100;
   color: #66FCf1;
-  width: 120px;
+  width: 90px;
   height: 60px;
   background: #45A29E;
   border-radius: 50px;
@@ -67,7 +67,7 @@ background-color:#282828;
 }
 
 .button:hover {
-  width: 170px;
+  width: 95px;
   transition: 2s;
   background: #66FCf1;
   color: #45A29E;
