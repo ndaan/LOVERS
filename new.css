@@ -1,124 +1,124 @@
 *{ 
-    padding: 0;
-    margin: 0;
-  }
+  padding: 0;
+  margin: 0;
+}
 .contain{
-  width: 750px;
-  margin:auto;
+width: 750px;
+margin:auto;
 }
 body{
-  background-image: linear-gradient(0, #282828,#ccc);
+background-image: linear-gradient(0, #282828,#ccc);
 }
 header{
 
-  height: 100px;
-  background-color:#282828;
+height: 100px;
+background-color:#282828;
 }
 .box {
-    display: flex;
-    border-top: 50px solid #5d5c61;
-    border-left: 50px solid transparent;
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(34, 65, 32);
-    align-items: center;
-    justify-content: left;
-    background-color: #282828;
-    padding-bottom: 10px solid transparent;
+  display: flex;
+  border-top: 50px solid #5d5c61;
+  border-left: 50px solid transparent;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(34, 65, 32);
+  align-items: center;
+  justify-content: left;
+  background-color: #282828;
+  padding-bottom: 10px solid transparent;
+}
+
+.avatar {
+  border: 5px solid #d9d9d9;
+  border-radius: 50%;
+  border-top: 5px solid #d9d9d9;
+  border-bottom: 5px solid #d9d9d9;
+  padding: 10px;
+  background-color: #d9d9d9;
+  align-items: right;
+  justify-content: right;
+  margin: 0px 30px;
+}
+
+.avatar:hover {
+  border-top: 5px solid #282828;
+  border-bottom: 5px solid #282828;
+  width: 50px;
+  height: 50px;
+  transition: 1s;
+  animation: spin 2s linear infinite;
+
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
   }
-  
-  .avatar {
-    border: 5px solid #d9d9d9;
-    border-radius: 50%;
-    border-top: 5px solid #d9d9d9;
-    border-bottom: 5px solid #d9d9d9;
-    padding: 10px;
-    background-color: #d9d9d9;
-    align-items: right;
-    justify-content: right;
-    margin: 0px 30px;
-  }
-  
-  .avatar:hover {
-    border-top: 5px solid #282828;
-    border-bottom: 5px solid #282828;
-    width: 50px;
-    height: 50px;
-    transition: 1s;
-    animation: spin 2s linear infinite;
-  
-  }
-  
-  @keyframes spin {
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  .infor{
-    position: relative;
-    top: -190px;
-    left: 150px;
-  }
-                  
-  .infor{
-    font-weight: 100;
-    font-variant: small-caps;
-    font-family: Georgia, serif;
-    font-size: 12px;
-    font-weight: 100;
-    color: #66FCf1;
-    width: 95px;
-    height: 60px;
-    background: #45A29E;
-    border-radius: 50px;
-    position: center;
-    margin: 10px 10px 12px 5px;
-    border-collapse: collapse;
-    align-items: center;
-  
-  }
-  
-  .infor:hover {
-    width: 170px;
-    font-size: 20px;
-    transition: 2s;
-    background: #66FCf1;
-    color: #45A29E;
-  
-  }
+}
+.infor{
+  position: relative;
+  top: -190px;
+  left: 150px;
+}
+                
+.infor{
+  font-weight: 100;
+  font-variant: small-caps;
+  font-family: Georgia, serif;
+  font-size: 12px;
+  font-weight: 100;
+  color: #66FCf1;
+  width: 95px;
+  height: 60px;
+  background: #45A29E;
+  border-radius: 50px;
+  position: center;
+  margin: 10px 10px 12px 5px;
+  border-collapse: collapse;
+  align-items: center;
+
+}
+
+.infor:hover {
+  width: 170px;
+  font-size: 20px;
+  transition: 2s;
+  background: #66FCf1;
+  color: #45A29E;
+
+}
 /* ================ */
 .trungtam{
-    height: 800px;
-    animation: mau 5s linear infinite;
-    animation-direction: alternate;
+  height: 800px;
+  animation: mau 5s linear infinite;
+  animation-direction: alternate;
 }
 @keyframes mau{
-    from{
-        background-color: #282828;
-      }
-    to{
-        background-color:,#ccc;
+  from{
+      background-color: #282828;
     }
+  to{
+      background-color:,#ccc;
+  }
 }
 .screen {
-    border-radius: 100px;
-    margin: 10px 0px 0px 10px;
-  }
+  border-radius: 100px;
+  margin: 10px 0px 0px 10px;
+}
 .thongtin{
-  position: relative;
-  top: -170px;
-  left: 300px;
+position: relative;
+top: -170px;
+left: 300px;
 
 }
 .thongtin{
 
-    font-weight: 1200px;
-    font-size: 30px;
-    font-family: Georgia, serif;
-    
-    list-style: none;
-    font-size: 25px;
-    color: rgb(118, 103, 84);
-    font-family: "Sofia", sans-serif;
+  font-weight: 1200px;
+  font-size: 30px;
+  font-family: Georgia, serif;
+  
+  list-style: none;
+  font-size: 25px;
+  color: rgb(118, 103, 84);
+  font-family: "Sofia", sans-serif;
 
 }
