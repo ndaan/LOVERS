@@ -1,124 +1,43 @@
-*{ 
-  padding: 0;
-  margin: 0;
-}
-.contain{
-width: 750px;
-margin:auto;
-}
+
 body{
-background-image: linear-gradient(0, #282828,#ccc);
-}
-header{
-
-height: 100px;
-background-color:#282828;
-}
-.box {
-  display: flex;
-  border-top: 50px solid #5d5c61;
-  border-left: 50px solid transparent;
-  font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(34, 65, 32);
-  align-items: center;
-  justify-content: left;
-  background-color: #282828;
-  padding-bottom: 10px solid transparent;
-}
-
-.avatar {
-  border: 5px solid #d9d9d9;
-  border-radius: 50%;
-  border-top: 5px solid #d9d9d9;
-  border-bottom: 5px solid #d9d9d9;
-  padding: 10px;
-  background-color: #d9d9d9;
-  align-items: right;
-  justify-content: right;
-  margin: 0px 30px;
-}
-
-.avatar:hover {
-  border-top: 5px solid #282828;
-  border-bottom: 5px solid #282828;
-  width: 50px;
-  height: 50px;
-  transition: 1s;
-  animation: spin 2s linear infinite;
+    background: url('https://i.pinimg.com/236x/6a/c0/8f/6ac08f3037ee38595859c78af5f20fa1.jpg');
 
 }
-
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
+.avr {
+    padding: 20px;;
+    flex-direction:center;
+    border-radius: 170px;
+    transition-duration: 0.3s;
+    transition-property: color, background-color;
+}
+img.avr:hover{
+    background-color: rgb(50, 33, 20) ;
+    background: url('https://i.pinimg.com/236x/2d/67/f9/2d67f9834649b584682ab58606f5a27e.jpg');
 }
 .infor{
-  position: relative;
-  top: -190px;
-  left: 150px;
+    font-weight:unset;
+    font-family: 'Playfair Display';        
+    font-size: 15px;
+    color: rgb(50, 33, 20);
 }
-                
-.infor{
-  font-weight: 100;
-  font-variant: small-caps;
-  font-family: Georgia, serif;
-  font-size: 12px;
-  font-weight: 100;
-  color: #66FCf1;
-  width: 95px;
-  height: 60px;
-  background: #45A29E;
-  border-radius: 50px;
-  position: center;
-  margin: 10px 10px 12px 5px;
-  border-collapse: collapse;
-  align-items: center;
-
+ul li{
+    
+    border-radius: 25px;
+    margin:10px 0px 0px 0px;
+    width:350px;
+    height:50px;
+    background-color:rgb(112, 85, 35);
+    list-style: none;
+    transition-duration: 3s;
+    transition-property: color, background-color;
+    transition-duration: initial;
 }
-
-.infor:hover {
-  width: 170px;
-  font-size: 20px;
-  transition: 2s;
-  background: #66FCf1;
-  color: #45A29E;
-
+.button{
+    font-family: 'Playfair Display';        
+    font-size: 40px;
 }
-/* ================ */
-.trungtam{
-  height: 800px;
-  animation: mau 5s linear infinite;
-  animation-direction: alternate;
-}
-@keyframes mau{
-  from{
-      background-color: #282828;
-    }
-  to{
-      background-color:,#ccc;
-  }
-}
-.screen {
-  border-radius: 100px;
-  margin: 10px 0px 0px 10px;
-}
-.thongtin{
-position: relative;
-top: -170px;
-left: 300px;
-
-}
-.thongtin{
-
-  font-weight: 1200px;
-  font-size: 30px;
-  font-family: Georgia, serif;
-  
-  list-style: none;
-  font-size: 25px;
-  color: rgb(118, 103, 84);
-  font-family: "Sofia", sans-serif;
-
+ul li:hover{
+    color: #d9d9d9;
+    background: url('https://i.pinimg.com/236x/09/cd/37/09cd3751f9e59f3bc82b982059e7b1c8.jpg');
+    /* background-color: rgb(50, 33, 20) ; */
 }
